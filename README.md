@@ -34,6 +34,13 @@ Each output stat refers to a `.gcg` file which can be viewed in Quackle.
 ## Improvements
 
 - Sanity check each of the 100k `.gcg`s conforms to the `.gcg` format
-- Add more stats, listed in `quackle_stats.sh`
-- Woogles discord has larger runs
+- More games: 1 million+ could be generated, or use such a dataset if it exists already (maybe Woogles Discord)
+- More stats: `quackle_stats.sh` lists over 30 more ideas
+- Stronger player: Quackle speedy player is limited → Woogles BestBot with GPUs?
+- Update CSW15 to the latest version of the lexicon, CSW24
+- Other lexica: North American English (NWL), other languages
+- Look at the distributions of values: are they Gaussian, skew-Gaussian, something else?
+- Related to this, are there any true anomalies, i.e., values beyond what would be expected to be the outliers of a distribution in 100k games or any number of games? The 845 game might be an example for 100k.
+- Compare to humans using [cross-tables](cross-tables.com)
 - Speedups: multithreading, Parquet/similar, GPU
+
